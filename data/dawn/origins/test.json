@@ -1,0 +1,11 @@
+{
+    "name": "Test Origin",
+    "description": "This is a description",
+    "icon": {
+        "item": "minecraft:barrier",
+        "amount": 1
+    },
+    "unchoosable": true,
+    "order": 0,
+    "impact": 0
+}
