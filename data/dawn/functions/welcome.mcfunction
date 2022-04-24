@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Thank you for installing the "},{"text":"Dawn of the","bold":true,"color":"#072D54"},{"text":" Stars","bold":true,"color":"#F0D828"},{"text":" origins datapack!"}]
