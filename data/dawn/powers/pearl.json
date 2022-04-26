@@ -1,0 +1,43 @@
+{
+    "name": "Pearly Light",
+    "description": "",
+    "type": "origins:multiple",
+    "resource":
+        {
+            "type": "origins:resource",
+            "min": 0,
+            "max": 100,
+            "hud_render":
+                {
+                    "should_render": true,
+                    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+                    "bar_index": 23
+                }
+        },
+    "increase":
+        {
+            "type": "origins:action_over_time",
+            "entity_action":
+                {
+                    "type": "origins:change_resource",
+                    "resource": "dawn:pearl_resource",
+                    "change": 5,
+                    "operation": "add"
+                },
+            "interval": 20,  
+            "condition":
+                {
+                    "type": "origins:and",
+                    "conditions":
+                        [
+                            {
+                                "type": "origins:exposed_to_sky"
+                            },
+                            {
+                                "type": "origins:daytime",
+                                "inverted": true
+                            }
+                        ]
+                }
+        }
+}
