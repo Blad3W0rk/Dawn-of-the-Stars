@@ -1,6 +1,7 @@
 {
     "origins": [
-        "dawn:test"
+        "dawn:test",
+        "dawn:moon_spirit"
     ],
     "enabled": true
 }

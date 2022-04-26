@@ -1,0 +1,15 @@
+{
+    "name": "Moon Spirit",
+    "description": "",
+    "icon": {
+        "item": "minecraft:sea_lantern",
+        "amount": 1,
+        "tag": "{Enchantments: [{id: mending, lvl: 1}]}"
+    },
+    "powers": [
+        "dawn:nights_children"
+    ],
+    "unchoosable": false,
+    "order": 0,
+    "impact": 1
+}

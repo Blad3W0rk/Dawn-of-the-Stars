@@ -1,0 +1,38 @@
+{
+    "name": "Night's Children",
+    "description": "",
+    "type": "origins:multiple",
+    "night_vision": 
+        {
+            "type": "origins:night_vision",
+            "strength": 1
+        },
+    "status_effects": 
+        {
+            "type": "origins:action_over_time",
+            "interval": 1,
+            "entity_action":
+                {
+                    "type": "origins:apply_effect",
+                    "effects":
+                        [
+                            {
+                                "effect": "minecraft:speed",
+                                "amplifier": 0,
+                                "duration": 2,
+                                "is_ambient": true,
+                                "show_particles": false,
+                                "show_icon": true
+                            },
+                            {
+                                "effect": "minecraft:strength",
+                                "amplifier": 0,
+                                "duration": 2,
+                                "is_ambient": true,
+                                "show_particles": false,
+                                "show_icon": true
+                            }
+                        ]
+                }
+        }
+}
